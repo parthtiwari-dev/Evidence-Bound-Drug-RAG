@@ -9,11 +9,6 @@ __pycache__/
 .venv/
 
 # Data
-data/raw/
-data/processed/
-data/evaluation/
-data/failures/
-data/chromadb/
 
 # Tools
 *.log

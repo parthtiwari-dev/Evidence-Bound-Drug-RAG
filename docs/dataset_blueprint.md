@@ -58,13 +58,13 @@ All raw documents must conform to the following structure:
 
 ```text
 data/
-├── raw/
-│   ├── nice/
-│   ├── who/
-│   ├── fda/
-├── processed/
-├── evaluation/
-├── failures/
+├- raw/
+-- nice/
+-- who/
+-- fda/
+├- processed/
+├- evaluation/
+├- failures/
 ```
 
 Rules:
@@ -86,6 +86,8 @@ data/processed/, data/evaluation/, and data/failures/ are reserved for downstrea
 Filenames encode authority, drug/topic, document type, and year. This supports authority and timeframe rules later in the pipeline.
 
 ### 5.1 NICE / NHS / BNF (Tier 1, UK)
+  - **NICE / NHS / BNF (Tier 1, UK):** 10–12 PDFs  
+  - **Current (Day 2):** 8 PDFs in `data/raw/nice/`
 
 Pattern:
 
@@ -106,6 +108,8 @@ Examples:
 - nice_metformin_guideline_2019.pdf
 
 ### 5.2 FDA (Tier 1, US)
+- **FDA (Tier 1, US):** 8–12 PDFs  
+- **Current (Day 2):** 12 PDFs in `data/raw/fda/`
 
 Pattern:
 
@@ -126,6 +130,8 @@ Examples:
 - fda_amoxicillin_label_2018.pdf
 
 ### 5.3 WHO (Tier 2, Global)
+- **WHO (Tier 2, Global):** 1–2 PDFs  
+- **Current (Day 2):** 2 PDFs in `data/raw/who/`
 
 Pattern:
 
@@ -226,60 +232,52 @@ They are named by document-level topic (e.g., who_essential_medicines_2023.pdf),
 
 ## 8. Dataset completeness tracking
 
-A simple logical checklist will be used (to be filled during dataset collection):
+### Current collected files (Day 2 snapshot)
 
-For each locked drug:
+**FDA (`data/raw/fda/`):**
 
-**Atorvastatin**
+- 📕 fda_acetaminophen_highlights_2025.pdf
+- 📕 fda_amoxicillin_highlights_2025.pdf
+- 📕 fda_amoxicillin_tablets_2015.pdf
+- 📕 fda_atorvastatin_highlights_2024.pdf
+- 📕 fda_ciprofloxacin_extended_release_2025.pdf
+- 📕 fda_ciprofloxacin_highlights_2025.pdf
+- 📕 fda_ibuprofen_label_2024.pdf
+- 📕 fda_lisinopril_highlights_2025.pdf
+- 📕 fda_metformin_extended_release_2025.pdf
+- 📕 fda_metformin_highlights_2026.pdf
+- 📕 fda_warfarin_highlights_2022.pdf
+- 📕 fda_warfarin_label_2025.pdf
 
-- NICE / NHS / BNF: collected (Y/N)
-- FDA: collected (Y/N)
-- WHO: collected (Y/N)
+**NICE / NHS / BNF (`data/raw/nice/`):**
 
-**Lisinopril**
+- 📕 nice_amoxicillin_guideline_antibiotics_2025.pdf
+- 📕 nice_amoxicillin_guideline_antimicrobial_2021.pdf
+- 📕 nice_atorvastatin_guideline_cardiovascular_2023.pdf
+- 📕 nice_lisinopril_guideline_hypertension_2019.pdf
+- 📕 nice_metformin_guideline_diabetes_2021.pdf
+- 📕 nice_metformin_guideline_diabetes_ng28_2022.pdf
+- 📕 nice_osteoarthritis_management_ng226_2022.pdf
+- 📕 nice_upper_gi_bleeding_management_cg141_2016.pdf
 
-- NICE / NHS / BNF: Y/N
-- FDA: Y/N
-- WHO: Y/N
+**WHO (`data/raw/who/`):**
 
-**Amoxicillin**
+- 📕 who_essential_medicines_2023.pdf
+- 📕 who_selection_and_use_of_essential_medicine_2023.pdf
 
-- NICE / NHS / BNF: Y/N
-- FDA: Y/N
-- WHO: Y/N
 
-**Ciprofloxacin**
+### Naming deviations to fix later
 
-- NICE / NHS / BNF: Y/N
-- FDA: Y/N
-- WHO: Y/N
+Some NICE filenames currently do not fully follow the `nice_{drug_or_topic}_{doc_type}_{year}.pdf` pattern
+(e.g., `NG136_Visual_summary_20231019.pdf`, `RightCare-Pneumonia-toolkit.pdf`,
+or mixed names like `acute-upper-gastrointestinal-bleeding-in-over-16s-management-pdf nice_warfarin_bnf_2023.pdf`).
 
-**Ibuprofen**
+These will either be:
+- Renamed into the canonical pattern, or
+- Explicitly handled in ingestion metadata extraction.
 
-- NICE / NHS / BNF: Y/N
-- FDA: Y/N
-- WHO: Y/N
+For now, they are documented here as known deviations.
 
-**Paracetamol**
-
-- NICE / NHS / BNF: Y/N
-- WHO: Y/N
-
-**Metformin**
-
-- NICE / NHS / BNF: Y/N
-- FDA: Y/N
-- WHO: Y/N
-
-**Warfarin**
-
-- FDA: Y/N
-- NICE / NHS / BNF: Y/N (if available)
-
-Dataset collection for later phases should aim to:
-
-- Stay within the 22–30 PDF target range.
-- Maximize coverage so that each drug has at least one Tier 1 document (FDA or NICE/NHS/BNF) where possible.
 
 ## 9. Role of this blueprint in Phase 0
 

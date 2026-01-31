@@ -1,0 +1,78 @@
+{
+  "total_files": 22,
+  "total_pdfs": 22,
+  "total_other_files": 0,
+  "by_source": {
+    "fda": {
+      "file_count": 12,
+      "pdf_count": 12,
+      "total_size_kb": 8983.615234375,
+      "avg_size_kb": 748.6346028645834,
+      "min_size_kb": 118.0234375,
+      "max_size_kb": 2801.4072265625,
+      "year_distribution": {
+        "pre_2015": 0,
+        "2015_2019": 1,
+        "2020_2024": 3,
+        "post_2024": 8
+      }
+    },
+    "nice": {
+      "file_count": 8,
+      "pdf_count": 8,
+      "total_size_kb": 3403.6474609375,
+      "avg_size_kb": 425.4559326171875,
+      "min_size_kb": 90.2958984375,
+      "max_size_kb": 1589.970703125,
+      "year_distribution": {
+        "pre_2015": 0,
+        "2015_2019": 2,
+        "2020_2024": 5,
+        "post_2024": 1
+      }
+    },
+    "who": {
+      "file_count": 2,
+      "pdf_count": 2,
+      "total_size_kb": 3649.6484375,
+      "avg_size_kb": 1824.82421875,
+      "min_size_kb": 904.9306640625,
+      "max_size_kb": 2744.7177734375,
+      "year_distribution": {
+        "pre_2015": 0,
+        "2015_2019": 0,
+        "2020_2024": 2,
+        "post_2024": 0
+      }
+    }
+  },
+  "size_stats": {
+    "min_kb": 90.2958984375,
+    "max_kb": 2801.4072265625,
+    "avg_kb": 728.9505060369319
+  },
+  "estimated_tables": {
+    "total_hits": 1,
+    "by_source": {
+      "fda": 1,
+      "nice": 0,
+      "who": 0
+    }
+  },
+  "document_types": {
+    "drug_centric": 15,
+    "condition_guideline": 2,
+    "other": 5
+  },
+  "contract_checks": {
+    "non_locked_drugs_detected": 0,
+    "naming_violations": 0,
+    "out_of_scope_docs": 0
+  },
+  "notes": [
+    "Inspection run on 2026-01-31 21:39:17",
+    "Table estimation uses heuristic keyword search in filenames",
+    "Document type classification is filename- and folder-based",
+    "Year extraction uses regex on filenames only"
+  ]
+}
