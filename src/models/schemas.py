@@ -28,12 +28,12 @@ class Chunk:
     document_id: str
     text: str
     token_count: int
+    chunk_index: int
     section: Optional[str]
     authority_family: str
     tier: int
     year: Optional[int]
     drug_names: List[str]
-
 
 @dataclass
 class RetrievedChunk:
