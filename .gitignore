@@ -1,3 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+
+# Virtual env
+.venv/
+
+# Data
+data/raw/
+data/processed/
+data/evaluation/
+data/failures/
+data/chromadb/
+
+# Tools
+*.log
+.pytest_cache/
+.mypy_cache/
+
+new_folder/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
