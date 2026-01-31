@@ -4,14 +4,22 @@ from typing import List, Dict, Optional
 
 @dataclass
 class ParsedDocument:
-    id: str
+    document_id: str
     source_path: str
-    authority_family: str  # e.g. "FDA", "NICE", "WHO"
-    tier: int  # 1 or 2
-    year: Optional[int]
+    authority_family: str  # "FDA", "NICE", "WHO"
+    tier: int              # 1 or 2
+    year: int
     drug_names: List[str]
-    text: str
-    parse_errors: List[str] = field(default_factory=list)
+    raw_text: str
+    parsed_markdown: str
+    token_count: int
+    page_count: int
+    estimated_table_count: int      # NEW: Count of '|' chars in markdown
+    parsing_method: str             # NEW: "llamaparse_markdown"
+    parse_duration_seconds: float   # NEW: Time taken to parse
+    parse_errors: List[str]
+    parse_timestamp: str
+
 
 
 @dataclass

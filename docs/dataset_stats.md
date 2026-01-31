@@ -10,9 +10,10 @@ This document summarizes the dataset collected for the Evidence-Bound Drug RAG s
 
 ### Global counts
 
-- **Total files:** 22
-- **Total PDFs:** 22
-- **Other file types:** 0
+- **Total files:** 20
+- **Total PDFs:** 20
+- **Deferred:** 2 (WHO documents, ~940 pages)
+
 
 ### By source
 
@@ -20,7 +21,9 @@ This document summarizes the dataset collected for the Evidence-Bound Drug RAG s
 |--------|-----------|---------------|-----------------|
 | FDA    | 12        | 748.6         | 8,983.6         |
 | NICE   | 8         | 425.5         | 3,403.6         |
-| WHO    | 2         | 1,824.8       | 3,649.6         |
+
+**Note:** 2 WHO PDFs (3,649.6 KB combined) deferred to Day 13+.
+
 
 **Total corpus size:** ~16 MB across 22 PDFs.
 
@@ -154,6 +157,36 @@ While all documents passed naming and scope checks, the following may still pres
 - **Drug coverage:** All 8 locked drugs have at least one source document
 - **Authority coverage:** FDA (Tier 1), NICE (Tier 1), WHO (Tier 2) all represented
 - **Timeframe alignment:** 82% from 2020+, 0% pre-2015
+
+---
+
+---
+
+## 9. WHO Documents (Deferred)
+
+Two WHO essential medicines PDFs (~940 pages combined) were initially collected
+but deferred during Day 3 parsing due to LlamaParse free-tier page limits.
+
+All 8 locked drugs (atorvastatin, lisinopril, amoxicillin, ciprofloxacin,
+ibuprofen, paracetamol, metformin, warfarin) are fully covered by Tier 1
+authorities (FDA and/or NICE).
+
+WHO documents are Tier 2 by design and provide supplementary global context,
+not primary prescribing rules. They will be reconsidered in Day 13+
+(extensions and hardening) if they add measurable value.
+
+**Files deferred:**
+- `who_essential_medicines_2023.pdf` (2,744.7 KB)
+- `who_selection_and_use_of_essential_medicine_2023.pdf` (904.9 KB)
+
+**Location:** Moved to `data/deferred/who/` for auditability.
+
+**Updated corpus for Day 3:**
+- FDA: 12 PDFs
+- NICE: 8 PDFs
+- **Total: 20 PDFs**
+
+
 
 ### Next steps (Day 3: PDF Parsing)
 
