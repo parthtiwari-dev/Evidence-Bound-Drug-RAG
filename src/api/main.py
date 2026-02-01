@@ -18,6 +18,8 @@ from src.retrieval.vector_store import VectorStore
 from src.retrieval.bm25_index import BM25Index
 from src.retrieval.hybrid_retriever import HybridRetriever
 from src.models.schemas import RetrievedChunk
+from src.generation.llm import LLMGenerator  
+from src.models.schemas import GeneratedAnswer 
 
 # Import API models
 from src.api.models import (
@@ -50,6 +52,7 @@ app.add_middleware(
 vector_store: VectorStore | None = None
 bm25_index: BM25Index | None = None
 hybrid_retriever: HybridRetriever | None = None
+llm_generator: LLMGenerator | None = None
 
 # Paths
 DATA_DIR = Path("data/processed")
@@ -65,7 +68,7 @@ async def startup_event():
     
     Discipline A: All 3 retrievers loaded (vector, bm25, hybrid) for easy switching
     """
-    global vector_store, bm25_index, hybrid_retriever
+    global vector_store, bm25_index, hybrid_retriever, llm_generator
     
     logger.info("=" * 80)
     logger.info("[START] STARTING EVIDENCE-BOUND DRUG RAG API")
@@ -92,9 +95,19 @@ async def startup_event():
         hybrid_retriever = HybridRetriever(vector_store, bm25_index)
         logger.info("[OK] Hybrid Retriever initialized")
         
+        # Initialize LLM Generator
+        logger.info("[LOAD] Initializing LLM Generator (Groq)...")
+        llm_generator = LLMGenerator(
+            model="llama-3.3-70b-versatile",
+            temperature=0.0,
+            max_tokens=500
+        )
+        logger.info("[OK] LLM Generator initialized")
+        
         logger.info("=" * 80)
-        logger.info("[OK] API READY - All retrievers loaded")
+        logger.info("[OK] API READY - All retrievers + LLM loaded")  
         logger.info("=" * 80)
+
         
     except Exception as e:
         logger.error(f"[ERROR] STARTUP FAILED: {e}")
@@ -269,6 +282,135 @@ async def retrieve(request: RetrieveRequest):
             error=str(e)
         )
         raise HTTPException(status_code=500, detail=f"Retrieval failed: {str(e)}")
+
+
+@app.post(
+    "/ask",
+    summary="Ask a question about drug information",
+    response_description="Generated answer with citations and metadata",
+    tags=["Generation"]
+)
+async def ask(request: RetrieveRequest):
+    """
+    Ask a pharmaceutical question and get a cited answer.
+    
+    This endpoint combines:
+    1. Hybrid retrieval (BM25 + Vector search)
+    2. LLM generation with Groq (llama-3.3-70b-versatile)
+    3. Citation extraction and validation
+    4. Refusal policy enforcement
+    
+    **Parameters**:
+    - **query**: Your question about drugs (e.g., "What are side effects of warfarin?")
+    - **top_k**: Number of chunks to retrieve (default: 5, max: 20)
+    - **retriever_type**: Search method - "vector", "bm25", or "hybrid" (default: hybrid)
+    
+    **Returns**:
+    - **answer**: Generated answer with [1], [2], [3] citations
+    - **cited_chunks**: List of chunk IDs that were cited in the answer
+    - **is_refusal**: True if question was refused (medical advice, etc.)
+    - **authorities_used**: Which sources were used (FDA, NICE, WHO)
+    - **retrieval_time_ms**: Time spent retrieving chunks
+    - **generation_time_ms**: Time spent generating answer
+    - **total_latency_ms**: Total end-to-end time
+    - **cost_usd**: Cost of generation (always $0.00 with Groq)
+    
+    **Example Request**:
+    ```json
+    {
+        "query": "What are the side effects of warfarin?",
+        "top_k": 5,
+        "retriever_type": "hybrid"
+    }
+    ```
+    
+    **Example Response**:
+    ```json
+    {
+        "query": "What are the side effects of warfarin?",
+        "answer": "Common side effects include bleeding  and bruising...",[41][42]
+        "is_refusal": false,
+        "cited_chunks": ["fda_warfarin_label_2025_chunk_0044"],
+        "authorities_used": ["FDA"],
+        "retrieval_time_ms": 450.5,
+        "generation_time_ms": 1200.8,
+        "total_latency_ms": 1651.3,
+        "cost_usd": 0.0
+    }
+    ```
+    """
+    start_time = time.time()
+    
+    # Check components are initialized
+    if not hybrid_retriever:
+        raise HTTPException(
+            status_code=503, 
+            detail="Retriever not initialized. Server still starting up."
+        )
+    if not llm_generator:
+        raise HTTPException(
+            status_code=503, 
+            detail="LLM Generator not initialized. Server still starting up."
+        )
+    
+    try:
+        # STEP 1: Retrieve chunks
+        logger.info(f"[ASK] Query: {request.query[:100]}...")
+        retrieval_start = time.time()
+        
+        if request.retriever_type == "vector":
+            chunks = hybrid_retriever.retrieve_vector(request.query, request.top_k)
+        elif request.retriever_type == "bm25":
+            chunks = hybrid_retriever.retrieve_bm25(request.query, request.top_k)
+        else:  # hybrid (default)
+            chunks = hybrid_retriever.retrieve_hybrid(
+                request.query, 
+                request.top_k,
+                vector_weight=0.5
+            )
+        
+        retrieval_time = (time.time() - retrieval_start) * 1000
+        logger.info(f"[ASK] Retrieved {len(chunks)} chunks in {retrieval_time:.1f}ms")
+        
+        # STEP 2: Generate answer with LLM
+        generation_start = time.time()
+        
+        result: GeneratedAnswer = llm_generator.generate_answer(
+            query=request.query,
+            chunks=chunks,
+            question_id=f"api_{int(time.time())}"
+        )
+        
+        generation_time = (time.time() - generation_start) * 1000
+        total_time = (time.time() - start_time) * 1000
+        
+        logger.info(f"[ASK] Generated answer in {generation_time:.1f}ms")
+        logger.info(f"[ASK] Total time: {total_time:.1f}ms | Refusal: {result.is_refusal}")
+        
+        # STEP 3: Build response
+        response = {
+            "query": result.query,
+            "answer": result.answer_text,
+            "is_refusal": result.is_refusal,
+            "cited_chunks": result.cited_chunk_ids,
+            "authorities_used": result.authorities_used,
+            "retrieval_time_ms": round(retrieval_time, 2),
+            "generation_time_ms": round(generation_time, 2),
+            "total_latency_ms": round(total_time, 2),
+            "cost_usd": result.cost_usd or 0.0,
+            "chunks_retrieved": len(chunks),
+            "chunks_cited": len(result.cited_chunk_ids),
+            "total_tokens": result.total_token_count
+        }
+        
+        return response
+        
+    except Exception as e:
+        logger.error(f"[ASK] Error: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to generate answer: {str(e)}"
+        )
 
 
 if __name__ == "__main__":
