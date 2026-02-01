@@ -1,0 +1,167 @@
+{
+  "metadata_validation": {
+    "status": "PASS",
+    "total_checked": 10,
+    "passed": 10,
+    "failed": 0,
+    "required_fields": [
+      "authority_family",
+      "tier",
+      "year",
+      "drug_names",
+      "chunk_id"
+    ],
+    "details": [
+      {
+        "chunk_id": "nice_lisinopril_guideline_hypertension_2019_chunk_0023",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "nice_metformin_guideline_diabetes_ng28_2022_chunk_0030",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0001",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "nice_atorvastatin_guideline_cardiovascular_2023_chunk_0030",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "fda_metformin_highlights_2026_chunk_0017",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "fda_metformin_highlights_2026_chunk_0033",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "fda_lisinopril_highlights_2025_chunk_0012",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "fda_amoxicillin_tablets_2015_chunk_0004",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "nice_lisinopril_guideline_hypertension_2019_chunk_0022",
+        "all_fields_present": true,
+        "missing_fields": []
+      },
+      {
+        "chunk_id": "fda_metformin_highlights_2026_chunk_0018",
+        "all_fields_present": true,
+        "missing_fields": []
+      }
+    ]
+  },
+  "drug_accuracy": {
+    "per_query": [
+      {
+        "query": "What are the side effects of warfarin?",
+        "expected_drug": "warfarin",
+        "vector_accuracy": 5,
+        "bm25_accuracy": 2,
+        "hybrid_accuracy": 2
+      },
+      {
+        "query": "What is the recommended dosage of atorvastatin?",
+        "expected_drug": "atorvastatin",
+        "vector_accuracy": 5,
+        "bm25_accuracy": 2,
+        "hybrid_accuracy": 4
+      },
+      {
+        "query": "What are the contraindications for amoxicillin?",
+        "expected_drug": "amoxicillin",
+        "vector_accuracy": 5,
+        "bm25_accuracy": 1,
+        "hybrid_accuracy": 2
+      },
+      {
+        "query": "How does metformin work?",
+        "expected_drug": "metformin",
+        "vector_accuracy": 5,
+        "bm25_accuracy": 5,
+        "hybrid_accuracy": 5
+      },
+      {
+        "query": "What drugs interact with lisinopril?",
+        "expected_drug": "lisinopril",
+        "vector_accuracy": 5,
+        "bm25_accuracy": 0,
+        "hybrid_accuracy": 3
+      }
+    ],
+    "overall": {
+      "vector": {
+        "total_correct": 25,
+        "total_possible": 25,
+        "accuracy": 1.0
+      },
+      "bm25": {
+        "total_correct": 10,
+        "total_possible": 25,
+        "accuracy": 0.4
+      },
+      "hybrid": {
+        "total_correct": 16,
+        "total_possible": 25,
+        "accuracy": 0.64
+      }
+    },
+    "best_performer": "vector"
+  },
+  "performance_stats": {
+    "vector": {
+      "latency": {
+        "mean": 33.55,
+        "min": 16.92,
+        "max": 85.11
+      },
+      "score": {
+        "mean": 0.5811,
+        "min": 0.5037,
+        "max": 0.7212,
+        "std_dev": 0.0477
+      }
+    },
+    "bm25": {
+      "latency": {
+        "mean": 3.22,
+        "min": 2.4,
+        "max": 4.02
+      },
+      "score": {
+        "mean": 0.4398,
+        "min": 0.0,
+        "max": 1.0,
+        "std_dev": 0.3504
+      }
+    },
+    "hybrid": {
+      "latency": {
+        "mean": 24.47,
+        "min": 23.1,
+        "max": 26.04
+      },
+      "score": {
+        "mean": 0.7692,
+        "min": 0.363,
+        "max": 1.0,
+        "std_dev": 0.2055
+      }
+    }
+  },
+  "table_chunks_count": 2,
+  "report": "================================================================================\nRETRIEVAL VALIDATION REPORT\n================================================================================\n\n## TASK 7.1: METADATA VALIDATION\nStatus: PASS\nChecked: 10 chunks\nPassed: 10/10\n\n## TASK 7.4: DRUG ACCURACY\nVECTOR   25/25 (100.0%)\nBM25     10/25 (40.0%)\nHYBRID   16/25 (64.0%)\n\nBest Performer: VECTOR\n\n## RETRIEVER PERFORMANCE\n\nVECTOR:\n  Avg Latency: 33.55ms\n  Avg Score: 0.5811\n\nBM25:\n  Avg Latency: 3.22ms\n  Avg Score: 0.4398\n\nHYBRID:\n  Avg Latency: 24.47ms\n  Avg Score: 0.7692\n\n================================================================================"
+}

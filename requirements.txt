@@ -4,3 +4,7 @@ python-dotenv
 llama-parse
 langchain-text-splitters
 tiktoken
+chromadb
+sentence-transformers
+rank_bm25
+fastapi

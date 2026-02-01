@@ -1,0 +1,2337 @@
+{
+  "query_1": {
+    "query_text": "What are the side effects of warfarin?",
+    "drug": "warfarin",
+    "question_type": "side_effects",
+    "vector": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0044",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.5869,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# MEDICATION GUIDE\n\n# Warfarin (war' far in) Sodium Tablets, USP\n\nWhat is the most important information I should know about warfarin sodium tablets?\n..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0043",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.5821,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# Warnings and Precautions\n\nImmediately contact their physician when taking warfarin sodium after any heparin formulation therapy and experiencing blo..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0044",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.5705,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# What is the most important information I should know about warfarin\n\n\n\n\n# Warfarin Sodium\n\nWarfarin sodium can cause bleeding which can be serious a..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0018",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.5681,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "The following factors may be responsible for increased INR response: diarrhea, hepatic disorders, poor nutritional state, steatorrhea, or vitamin K de..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0045",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.564,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Dist. by: Taro Pharmaceuticals U.S.A., Inc., Hawthorne, NY 10532\n\nRevised: August 2022\n\n5200706-0822-20\n\nMarketed by: GSMS, Inc., Camarillo, CA 93012 ..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0027",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.5509,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 10 OVERDOSAGE\n\n# 10.1 Signs and Symptoms\n\nBleeding (e.g., appearance of blood in stools or urine, hematuria, excessive menstrual bleeding, melena, p..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0029",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.5509,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 10 OVERDOSAGE\n\n# 10.1 Signs and Symptoms\n\nBleeding (e.g., appearance of blood in stools or urine, hematuria, excessive menstrual bleeding, melena, p..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0002",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.5477,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Systemic atheroemboli and cholesterol microemboli: Some cases have progressed to necrosis or death. Discontinue warfarin sodium if such emboli occur. ..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0045",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.5425,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Get your regular blood test to check for your response to warfarin sodium. This blood test is called an INR test. The INR test checks to see how fast ..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0046",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.5425,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Get your regular blood test to check for your response to warfarin sodium. This blood test is called an INR test. The INR test checks to see how fast ..."
+        }
+      ],
+      "latency_ms": 85.11,
+      "statistics": {
+        "min_score": 0.5425,
+        "max_score": 0.5869,
+        "mean_score": 0.5606,
+        "median_score": 0.5575,
+        "std_dev": 0.0161
+      }
+    },
+    "bm25": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_ciprofloxacin_extended_release_2025_chunk_0048",
+          "document_id": "fda_ciprofloxacin_extended_release_2025",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "ciprofloxacin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "If you miss a dose of ciprofloxacin extended-release tablets, take it as soon as you remember. Do not take more than one dose in one day.\n\nIf you take..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0032",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.9161,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Common side effects of metformin hydrochloride tablets\n\nCommon side effects of metformin hydrochloride tablets include diarrhea, nausea, and upset s..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0049",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.9028,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Your healthcare provider may need to check you.\n\n# What should I avoid while taking warfarin sodium tablets?\n\nDo not do any activity or sport that may..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0048",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.874,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# What should I avoid while taking warfarin sodium?\n\nDo not do any activity or sport that may cause a serious injury.\n\n# What are the possible side ef..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0036",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.7636,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# What are the possible side effects of metformin hydrochloride extended-release tablets?\n\nMetformin hydrochloride extended-release tablets can cause ..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "nice_metformin_guideline_diabetes_2021_chunk_0028",
+          "document_id": "nice_metformin_guideline_diabetes_2021",
+          "score": 0.6584,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2021,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Type 2 diabetes in adults: management (NG28)\n\n# Recommendations for research\n\nThe guideline committee has made the following recommendations for resea..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "nice_metformin_guideline_diabetes_ng28_2022_chunk_0028",
+          "document_id": "nice_metformin_guideline_diabetes_ng28_2022",
+          "score": 0.6584,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Type 2 diabetes in adults: management (NG28)\n\n# Recommendations for research\n\nThe guideline committee has made the following recommendations for resea..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_ciprofloxacin_extended_release_2025_chunk_0049",
+          "document_id": "fda_ciprofloxacin_extended_release_2025",
+          "score": 0.5583,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "ciprofloxacin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# What are the possible side effects of ciprofloxacin tablets?\n\n\n\n\n\nCiprofloxacin tablets can cause side effects that may be serious or even cause dea..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0061",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.3559,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "The most common side effects of atorvastatin calcium tablets include:\n\n- nasal congestion, sore throat, runny nose\n- muscle and joint pain\n- diarrhea\n..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0031",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# What should I avoid while taking metformin hydrochloride tablets?\n\nDo not drink a lot of alcoholic drinks while taking metformin hydrochloride table..."
+        }
+      ],
+      "latency_ms": 2.82,
+      "statistics": {
+        "min_score": 0.0,
+        "max_score": 1.0,
+        "mean_score": 0.6688,
+        "median_score": 0.711,
+        "std_dev": 0.3045
+      }
+    },
+    "hybrid": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0044",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# MEDICATION GUIDE\n\n# Warfarin (war' far in) Sodium Tablets, USP\n\nWhat is the most important information I should know about warfarin sodium tablets?\n..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_ciprofloxacin_extended_release_2025_chunk_0048",
+          "document_id": "fda_ciprofloxacin_extended_release_2025",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "ciprofloxacin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "If you miss a dose of ciprofloxacin extended-release tablets, take it as soon as you remember. Do not take more than one dose in one day.\n\nIf you take..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0032",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.9595,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Common side effects of metformin hydrochloride tablets\n\nCommon side effects of metformin hydrochloride tablets include diarrhea, nausea, and upset s..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0043",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.9416,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Warnings and Precautions\n\nImmediately contact their physician when taking warfarin sodium after any heparin formulation therapy and experiencing blo..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0036",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.886,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# What are the possible side effects of metformin hydrochloride extended-release tablets?\n\nMetformin hydrochloride extended-release tablets can cause ..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "nice_metformin_guideline_diabetes_2021_chunk_0028",
+          "document_id": "nice_metformin_guideline_diabetes_2021",
+          "score": 0.8353,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2021,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "Type 2 diabetes in adults: management (NG28)\n\n# Recommendations for research\n\nThe guideline committee has made the following recommendations for resea..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "nice_metformin_guideline_diabetes_ng28_2022_chunk_0028",
+          "document_id": "nice_metformin_guideline_diabetes_ng28_2022",
+          "score": 0.8353,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "Type 2 diabetes in adults: management (NG28)\n\n# Recommendations for research\n\nThe guideline committee has made the following recommendations for resea..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0044",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.8031,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# What is the most important information I should know about warfarin\n\n\n\n\n# Warfarin Sodium\n\nWarfarin sodium can cause bleeding which can be serious a..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_ciprofloxacin_extended_release_2025_chunk_0049",
+          "document_id": "fda_ciprofloxacin_extended_release_2025",
+          "score": 0.7869,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "ciprofloxacin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# What are the possible side effects of ciprofloxacin tablets?\n\n\n\n\n\nCiprofloxacin tablets can cause side effects that may be serious or even cause dea..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0018",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.7734,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "The following factors may be responsible for increased INR response: diarrhea, hepatic disorders, poor nutritional state, steatorrhea, or vitamin K de..."
+        }
+      ],
+      "latency_ms": 23.71,
+      "statistics": {
+        "min_score": 0.7734,
+        "max_score": 1.0,
+        "mean_score": 0.8821,
+        "median_score": 0.8606,
+        "std_dev": 0.0875
+      }
+    },
+    "overlap": {
+      "overlap_count": 0,
+      "overlap_percentage": 0.0,
+      "overlap_chunk_ids": []
+    }
+  },
+  "query_2": {
+    "query_text": "What is the recommended dosage of atorvastatin?",
+    "drug": "atorvastatin",
+    "question_type": "dosage",
+    "vector": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0066",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.7212,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Usual Dosage: See accompanying prescribing information.\n\nKeep this and all medication out of the reach of children.\n\nStore at 20° to 25°C (68° to 77°F..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0001",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.7181,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# DOSAGE AND ADMINISTRATION\n\n- Take orally once daily with or without food (2.1).\n- Assess LDL-C when clinically appropriate, as early as 4 weeks afte..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0036",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.6793,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "(doses separated)ð 40 mg SD¶ 0.20 0.60\n\n†Gemfibrozil 600 mg BID§, 40 mg SD¶ 1.35 1.00\n\n7 days\n\n†Fenofibrate 160 mg QD‡, 7 days\n\nBoceprevir 800 mg TIDø..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0006",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.6565,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 2.3 Recommended Dosage in Pediatric Patients 10 Years of Age and Older with HeFH\n\nThe recommended starting dosage of atorvastatin calcium tablets is..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "nice_atorvastatin_guideline_cardiovascular_2023_chunk_0015",
+          "document_id": "nice_atorvastatin_guideline_cardiovascular_2023",
+          "score": 0.6273,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2023,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# Initial treatment\n\n1.7.2 Offer atorvastatin 80 mg to people with CVD, whatever their cholesterol level, unless the person meets the criteria in reco..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0050",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.6262,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "| Treatment (Daily Dosage) | N  | Total-C | LDL-C | Apo B | TG | HDL-C |\n| ------------------------ | -- | ------- | ----- | ----- | -- | ----- |\n| Tr..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0031",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.6089,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# Excretion\n\nAtorvastatin and its metabolites are eliminated primarily in bile following hepatic and/or extra-hepatic metabolism; however, the drug do..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0037",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.5904,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "ð Due to the dual interaction mechanism of rifampin, simultaneous co-administration of atorvastatin with rifampin is recommended, as delayed administr..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "nice_atorvastatin_guideline_cardiovascular_2023_chunk_0030",
+          "document_id": "nice_atorvastatin_guideline_cardiovascular_2023",
+          "score": 0.5874,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2023,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Return to recommendations\n\nLipid-lowering treatment for primary prevention of cardiovascular disease\n\nRecommendations 1.6.1 to 1.6.12\n\nWhy the committ..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0063",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.5873,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Usual Dosage: See accompanying prescribing information.\n\nKeep this and all medication out of the reach of children.\n\nStore at 20° to 25°C (68° to 77°F..."
+        }
+      ],
+      "latency_ms": 24.41,
+      "statistics": {
+        "min_score": 0.5873,
+        "max_score": 0.7212,
+        "mean_score": 0.6403,
+        "median_score": 0.6268,
+        "std_dev": 0.0514
+      }
+    },
+    "bm25": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0005",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 14 CLINICAL STUDIES\n\n# 16 HOW SUPPLIED/STORAGE AND HANDLING\n\n# 17 PATIENT COUNSELING INFORMATION\n\n* Sections or subsections omitted from the full pr..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0006",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.9882,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 2.3 Recommended Dosage in Pediatric Patients 10 Years of Age and Older with HeFH\n\nThe recommended starting dosage of atorvastatin calcium tablets is..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0005",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.3882,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, patients with dia..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0005",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.3776,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 2 DOSAGE AND ADMINISTRATION\n\n# 2.1 Adult Dosage\n\nMetformin Hydrochloride Tablets The recommended starting dose of metformin hydrochloride tablets is..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0013",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.2484,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Osteoarthritis in over 16s: diagnosis and management (NG226)\n\nmanaging osteoarthritis?\n\nFor a short explanation of why the committee made the recomm..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0006",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.208,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "The recommended starting dose in adult patients with hypertension taking diuretics is 5 mg once per day. [see Drug Interactions (7.1)].\n\n# Pediatric P..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0008",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.1343,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Risk Factors for Myopathy\n\nRisk factors for myopathy include age 65 years or greater, uncontrolled hypothyroidism,\n\n\n\n\n\n\n\nrenal impairment, concomit..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_amoxicillin_tablets_2015_chunk_0003",
+          "document_id": "fda_amoxicillin_tablets_2015",
+          "score": 0.0983,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2015,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 2.2 Dosing in Neonates and Infants Aged ≤ 12 Weeks (≤ 3 Months)\n\n\n\n\nTreatment should be continued for a minimum of 48 to 72 hours beyond the time th..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0011",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.0181,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Key recommendations for research\n\n# 1 Exercise\n\nWhat is the clinical and cost effectiveness of supervised group and individual exercise compared wit..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "nice_metformin_guideline_diabetes_2021_chunk_0028",
+          "document_id": "nice_metformin_guideline_diabetes_2021",
+          "score": 0.0,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2021,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Type 2 diabetes in adults: management (NG28)\n\n# Recommendations for research\n\nThe guideline committee has made the following recommendations for resea..."
+        }
+      ],
+      "latency_ms": 3.98,
+      "statistics": {
+        "min_score": 0.0,
+        "max_score": 1.0,
+        "mean_score": 0.3461,
+        "median_score": 0.2282,
+        "std_dev": 0.3659
+      }
+    },
+    "hybrid": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0066",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "Usual Dosage: See accompanying prescribing information.\n\nKeep this and all medication out of the reach of children.\n\nStore at 20° to 25°C (68° to 77°F..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0005",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 14 CLINICAL STUDIES\n\n# 16 HOW SUPPLIED/STORAGE AND HANDLING\n\n# 17 PATIENT COUNSELING INFORMATION\n\n* Sections or subsections omitted from the full pr..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0001",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.9793,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# DOSAGE AND ADMINISTRATION\n\n- Take orally once daily with or without food (2.1).\n- Assess LDL-C when clinically appropriate, as early as 4 weeks afte..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0006",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.7759,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 2.3 Recommended Dosage in Pediatric Patients 10 Years of Age and Older with HeFH\n\nThe recommended starting dosage of atorvastatin calcium tablets is..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0005",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5079,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, patients with dia..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0005",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.4994,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 2 DOSAGE AND ADMINISTRATION\n\n# 2.1 Adult Dosage\n\nMetformin Hydrochloride Tablets The recommended starting dose of metformin hydrochloride tablets is..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0013",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.3955,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Osteoarthritis in over 16s: diagnosis and management (NG226)\n\nmanaging osteoarthritis?\n\nFor a short explanation of why the committee made the recomm..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_atorvastatin_highlights_2024_chunk_0036",
+          "document_id": "fda_atorvastatin_highlights_2024",
+          "score": 0.389,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2024,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "(doses separated)ð 40 mg SD¶ 0.20 0.60\n\n†Gemfibrozil 600 mg BID§, 40 mg SD¶ 1.35 1.00\n\n7 days\n\n†Fenofibrate 160 mg QD‡, 7 days\n\nBoceprevir 800 mg TIDø..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "nice_atorvastatin_guideline_cardiovascular_2023_chunk_0015",
+          "document_id": "nice_atorvastatin_guideline_cardiovascular_2023",
+          "score": 0.3637,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2023,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Initial treatment\n\n1.7.2 Offer atorvastatin 80 mg to people with CVD, whatever their cholesterol level, unless the person meets the criteria in reco..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0006",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.363,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "The recommended starting dose in adult patients with hypertension taking diuretics is 5 mg once per day. [see Drug Interactions (7.1)].\n\n# Pediatric P..."
+        }
+      ],
+      "latency_ms": 24.74,
+      "statistics": {
+        "min_score": 0.363,
+        "max_score": 1.0,
+        "mean_score": 0.6274,
+        "median_score": 0.5037,
+        "std_dev": 0.2797
+      }
+    },
+    "overlap": {
+      "overlap_count": 1,
+      "overlap_percentage": 10.0,
+      "overlap_chunk_ids": [
+        "fda_atorvastatin_highlights_2024_chunk_0006"
+      ]
+    }
+  },
+  "query_3": {
+    "query_text": "What are the contraindications for amoxicillin?",
+    "drug": "amoxicillin",
+    "question_type": "contraindications",
+    "vector": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_amoxicillin_highlights_2025_chunk_0002",
+          "document_id": "fda_amoxicillin_highlights_2025",
+          "score": 0.644,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# ADVERSE REACTIONS\n\nThe most common adverse reactions (> 1%) observed in clinical trials of amoxicillin capsules, tablets or\n\n\n\n\n\n\nThe most common ad..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_amoxicillin_tablets_2015_chunk_0004",
+          "document_id": "fda_amoxicillin_tablets_2015",
+          "score": 0.6189,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2015,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 3 DOSAGE FORMS AND STRENGTHS\n\n500 mg Tablets are pink colored, capsule shaped, film coated tablets debossed with “A” on one side and “66” on the oth..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_amoxicillin_highlights_2025_chunk_0000",
+          "document_id": "fda_amoxicillin_highlights_2025",
+          "score": 0.6124,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "AMOXICILLIN- amoxicillin capsule\n# HIGHLIGHTS OF PRESCRIBING INFORMATION\n\nThese highlights do not include all the information needed to use AMOXICILLI..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_amoxicillin_tablets_2015_chunk_0005",
+          "document_id": "fda_amoxicillin_tablets_2015",
+          "score": 0.6021,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2015,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "If CDAD is suspected or confirmed, ongoing antibiotic use not directed against C. difficile may need to be discontinued. Appropriate fluid and electro..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_amoxicillin_tablets_2015_chunk_0007",
+          "document_id": "fda_amoxicillin_tablets_2015",
+          "score": 0.5983,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2015,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 7 DRUG INTERACTIONS\n\n# 7.1 Probenecid\n\nProbenecid decreases the renal tubular secretion of amoxicillin. Concurrent use of amoxicillin and probenecid..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_amoxicillin_highlights_2025_chunk_0009",
+          "document_id": "fda_amoxicillin_highlights_2025",
+          "score": 0.5974,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 5 WARNINGS AND PRECAUTIONS\n\n# 5.1 Anaphylactic Reactions\n\nSerious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reporte..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_amoxicillin_highlights_2025_chunk_0011",
+          "document_id": "fda_amoxicillin_highlights_2025",
+          "score": 0.5908,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "The most common adverse reactions (> 1%) observed in clinical trials of amoxicillin capsules, tablets or oral suspension were diarrhea, rash, vomiting..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "nice_amoxicillin_guideline_antimicrobial_2021_chunk_0039",
+          "document_id": "nice_amoxicillin_guideline_antimicrobial_2021",
+          "score": 0.5869,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2021,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Second choice: co-amoxiclav OR 500/125mg TDS - 7 days\n\nco-trimoxazole (in penicillin allergy) 960mg BD\n\nFor antibiotic choices if severely unwell or M..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_amoxicillin_tablets_2015_chunk_0006",
+          "document_id": "fda_amoxicillin_tablets_2015",
+          "score": 0.5853,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2015,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "their package inserts.\n\n# 6.2 Postmarketing or Other Experience\n\nIn addition to adverse events reported from clinical trials, the following events hav..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_amoxicillin_highlights_2025_chunk_0004",
+          "document_id": "fda_amoxicillin_highlights_2025",
+          "score": 0.5846,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 12.4 Microbiology\n\n# 13 NONCLINICAL TOXICOLOGY\n\n# 13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility\n\n# 14 CLINICAL STUDIES\n\n# 14.1 H.pylori ..."
+        }
+      ],
+      "latency_ms": 21.29,
+      "statistics": {
+        "min_score": 0.5846,
+        "max_score": 0.644,
+        "mean_score": 0.6021,
+        "median_score": 0.5978,
+        "std_dev": 0.0186
+      }
+    },
+    "bm25": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0013",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 1.0,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Osteoarthritis in over 16s: diagnosis and management (NG226)\n\nmanaging osteoarthritis?\n\nFor a short explanation of why the committee made the recomm..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0011",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.83,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Key recommendations for research\n\n# 1 Exercise\n\nWhat is the clinical and cost effectiveness of supervised group and individual exercise compared wit..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "nice_amoxicillin_guideline_antibiotics_2025_chunk_0032",
+          "document_id": "nice_amoxicillin_guideline_antibiotics_2025",
+          "score": 0.6254,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "For a short explanation of why the committee made this recommendation for research, see the rationale section on microbiological tests.\n\nFull details ..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "nice_lisinopril_guideline_hypertension_2019_chunk_0022",
+          "document_id": "nice_lisinopril_guideline_hypertension_2019",
+          "score": 0.5892,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2019,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Full details of the evidence and the committee's discussion are in evidence review B: monitoring the response to treatment.\n\n# 2 Thresholds for interv..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0012",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.5118,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Other recommendations for research\n\n# 5 Patient information\n\nWhat information on the management of flares do people with osteoarthritis, their famil..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0014",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.441,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Full details of the evidence and the committee's discussion are in evidence review J: clinical and cost effectiveness of intra-articular injections fo..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "nice_metformin_guideline_diabetes_2021_chunk_0030",
+          "document_id": "nice_metformin_guideline_diabetes_2021",
+          "score": 0.3841,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2021,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Other recommendations for research\n\n# 5 Effectiveness of SGLT2 inhibitors for different ethnic groups\n\nWhat is the clinical and cost effectiveness o..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "nice_metformin_guideline_diabetes_ng28_2022_chunk_0030",
+          "document_id": "nice_metformin_guideline_diabetes_ng28_2022",
+          "score": 0.3841,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Other recommendations for research\n\n# 5 Effectiveness of SGLT2 inhibitors for different ethnic groups\n\nWhat is the clinical and cost effectiveness o..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "nice_atorvastatin_guideline_cardiovascular_2023_chunk_0024",
+          "document_id": "nice_atorvastatin_guideline_cardiovascular_2023",
+          "score": 0.0296,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2023,
+          "drug_names": [
+            "atorvastatin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Cardiovascular disease: risk assessment and reduction, including lipid modification (NG238)\n\n# Recommendations for research\n\nThe guideline committee h..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "nice_lisinopril_guideline_hypertension_2019_chunk_0023",
+          "document_id": "nice_lisinopril_guideline_hypertension_2019",
+          "score": 0.0,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2019,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Hypertension in adults: diagnosis and management (NG136)\n\n# Other recommendations for research\n\n# 6 Same-day hospital specialist assessment\n\nWhich peo..."
+        }
+      ],
+      "latency_ms": 2.88,
+      "statistics": {
+        "min_score": 0.0,
+        "max_score": 1.0,
+        "mean_score": 0.4795,
+        "median_score": 0.4764,
+        "std_dev": 0.3127
+      }
+    },
+    "hybrid": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_amoxicillin_highlights_2025_chunk_0002",
+          "document_id": "fda_amoxicillin_highlights_2025",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# ADVERSE REACTIONS\n\nThe most common adverse reactions (> 1%) observed in clinical trials of amoxicillin capsules, tablets or\n\n\n\n\n\n\nThe most common ad..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0013",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 1.0,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Osteoarthritis in over 16s: diagnosis and management (NG226)\n\nmanaging osteoarthritis?\n\nFor a short explanation of why the committee made the recomm..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0011",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.918,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Key recommendations for research\n\n# 1 Exercise\n\nWhat is the clinical and cost effectiveness of supervised group and individual exercise compared wit..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "nice_amoxicillin_guideline_antibiotics_2025_chunk_0032",
+          "document_id": "nice_amoxicillin_guideline_antibiotics_2025",
+          "score": 0.8193,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "For a short explanation of why the committee made this recommendation for research, see the rationale section on microbiological tests.\n\nFull details ..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "nice_lisinopril_guideline_hypertension_2019_chunk_0022",
+          "document_id": "nice_lisinopril_guideline_hypertension_2019",
+          "score": 0.8018,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2019,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "Full details of the evidence and the committee's discussion are in evidence review B: monitoring the response to treatment.\n\n# 2 Thresholds for interv..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0012",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.7644,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Other recommendations for research\n\n# 5 Patient information\n\nWhat information on the management of flares do people with osteoarthritis, their famil..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_amoxicillin_tablets_2015_chunk_0004",
+          "document_id": "fda_amoxicillin_tablets_2015",
+          "score": 0.7572,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2015,
+          "drug_names": [
+            "amoxicillin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 3 DOSAGE FORMS AND STRENGTHS\n\n500 mg Tablets are pink colored, capsule shaped, film coated tablets debossed with “A” on one side and “66” on the oth..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0014",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.7303,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "Full details of the evidence and the committee's discussion are in evidence review J: clinical and cost effectiveness of intra-articular injections fo..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "nice_metformin_guideline_diabetes_2021_chunk_0030",
+          "document_id": "nice_metformin_guideline_diabetes_2021",
+          "score": 0.7028,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2021,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Other recommendations for research\n\n# 5 Effectiveness of SGLT2 inhibitors for different ethnic groups\n\nWhat is the clinical and cost effectiveness o..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "nice_metformin_guideline_diabetes_ng28_2022_chunk_0030",
+          "document_id": "nice_metformin_guideline_diabetes_ng28_2022",
+          "score": 0.7028,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Other recommendations for research\n\n# 5 Effectiveness of SGLT2 inhibitors for different ethnic groups\n\nWhat is the clinical and cost effectiveness o..."
+        }
+      ],
+      "latency_ms": 26.04,
+      "statistics": {
+        "min_score": 0.7028,
+        "max_score": 1.0,
+        "mean_score": 0.8197,
+        "median_score": 0.7831,
+        "std_dev": 0.1141
+      }
+    },
+    "overlap": {
+      "overlap_count": 0,
+      "overlap_percentage": 0.0,
+      "overlap_chunk_ids": []
+    }
+  },
+  "query_4": {
+    "query_text": "How does metformin work?",
+    "drug": "metformin",
+    "question_type": "mechanism",
+    "vector": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0018",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.5824,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Effect of food: Food decreases the extent of absorption and slightly delays the absorption of metformin, as shown by approximately a 40% lower mean pe..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0020",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.5674,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# Excretion\n\nRenal clearance is approximately 3.5 times greater than creatinine clearance, which indicates that tubular secretion is the major route o..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0021",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.5483,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# Gender\n\nMetformin pharmacokinetic parameters did not differ significantly between normal subjects and patients with type 2 diabetes mellitus when an..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0012",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.5281,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Cholestatic, hepatocellular, and mixed hepatocellular liver injury have been reported with postmarketing use of metformin.\n\n# 7 DRUG INTERACTIONS\n\n| C..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0017",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.5176,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "H3C\n\nMetformin hydrochloride, USP is a white to off-white crystalline compound with a molecular formula of C4H11N5 • HCl and a molecular weight of 165..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0015",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.5156,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 8 USE IN SPECIFIC POPULATIONS\n\n\n\n\n\n# 8.1 Pregnancy\n\n# Risk Summary\n\nLimited data with metformin hydrochloride extended-release tablets in pregnant w..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0016",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.5093,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 8.7 Hepatic Impairment\n\nUse of metformin in patients with hepatic impairment has been associated with some cases of lactic acidosis. Metformin hydro..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0018",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.5084,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# Metformin Hydrochloride\n\nMetformin hydrochloride, USP is a white or almost white powder with a molecular formula of C4H11N5•HCl and a molecular weig..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0019",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.5048,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 12.3 Pharmacokinetics\n\n# Absorption\n\nFollowing a single oral dose of 1,000 mg (2 x 500 mg tablets) metformin hydrochloride extended-release tablets ..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "nice_metformin_guideline_diabetes_2021_chunk_0038",
+          "document_id": "nice_metformin_guideline_diabetes_2021",
+          "score": 0.5037,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2021,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "The committee agreed there was more certainty of cardiovascular benefits in adults with type 2 diabetes and chronic heart failure or established ather..."
+        }
+      ],
+      "latency_ms": 16.92,
+      "statistics": {
+        "min_score": 0.5037,
+        "max_score": 0.5824,
+        "mean_score": 0.5286,
+        "median_score": 0.5166,
+        "std_dev": 0.028
+      }
+    },
+    "bm25": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0033",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# What is type 2 diabetes?\n\nType 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that your body produces do..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0034",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.8605,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Before taking metformin hydrochloride extended-release tablets tell your doctor about all of your medical conditions, including if you:\n\n- have a hi..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0019",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.3574,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 12.3 Pharmacokinetics\n\n# Absorption\n\nFollowing a single oral dose of 1,000 mg (2 x 500 mg tablets) metformin hydrochloride extended-release tablets ..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0018",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.3104,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Effect of food: Food decreases the extent of absorption and slightly delays the absorption of metformin, as shown by approximately a 40% lower mean pe..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0026",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.2818,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 17 PATIENT COUNSELING INFORMATION\n\nAdvise the patient to read the FDA-approved patient labeling (Patient Information).\n\n# Lactic Acidosis:\n\nExplain ..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0035",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.2242,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# How should I take metformin hydrochloride extended-release tablets?\n\n- Take metformin hydrochloride extended-release tablets exactly as your doctor ..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0030",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.1418,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Can metformin hydrochloride tablets be used in children?\n\nMetformin hydrochloride tablets have been shown to effectively lower glucose levels in chi..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0036",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.0146,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# What are the possible side effects of metformin hydrochloride extended-release tablets?\n\nMetformin hydrochloride extended-release tablets can cause ..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0030",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.0025,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "*Glyburide was administered as 10 mg at breakfast and 5 mg at dinner.\n\na p-value for pairwise comparison &#x3C; 0.001\n\nMean baseline body weight was 8..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0037",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Keep metformin hydrochloride extended-release tablets and all medicines out of the reach of children.\n\n# General information about the safe and effect..."
+        }
+      ],
+      "latency_ms": 2.4,
+      "statistics": {
+        "min_score": 0.0,
+        "max_score": 1.0,
+        "mean_score": 0.3193,
+        "median_score": 0.253,
+        "std_dev": 0.3488
+      }
+    },
+    "hybrid": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0033",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# What is type 2 diabetes?\n\nType 2 diabetes is a condition in which your body does not make enough insulin, and the insulin that your body produces do..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0034",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.8943,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Before taking metformin hydrochloride extended-release tablets tell your doctor about all of your medical conditions, including if you:\n\n- have a hi..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0020",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.876,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Excretion\n\nRenal clearance is approximately 3.5 times greater than creatinine clearance, which indicates that tubular secretion is the major route o..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0018",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.7387,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "Effect of food: Food decreases the extent of absorption and slightly delays the absorption of metformin, as shown by approximately a 40% lower mean pe..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0021",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.7188,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Gender\n\nMetformin pharmacokinetic parameters did not differ significantly between normal subjects and patients with type 2 diabetes mellitus when an..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0012",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.5515,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "Cholestatic, hepatocellular, and mixed hepatocellular liver injury have been reported with postmarketing use of metformin.\n\n# 7 DRUG INTERACTIONS\n\n| C..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0017",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.4651,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "H3C\n\nMetformin hydrochloride, USP is a white to off-white crystalline compound with a molecular formula of C4H11N5 • HCl and a molecular weight of 165..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_metformin_highlights_2026_chunk_0026",
+          "document_id": "fda_metformin_highlights_2026",
+          "score": 0.4557,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2026,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 17 PATIENT COUNSELING INFORMATION\n\nAdvise the patient to read the FDA-approved patient labeling (Patient Information).\n\n# Lactic Acidosis:\n\nExplain ..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0015",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.448,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 8 USE IN SPECIFIC POPULATIONS\n\n\n\n\n\n# 8.1 Pregnancy\n\n# Risk Summary\n\nLimited data with metformin hydrochloride extended-release tablets in pregnant w..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_metformin_extended_release_2025_chunk_0019",
+          "document_id": "fda_metformin_extended_release_2025",
+          "score": 0.4362,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 12.3 Pharmacokinetics\n\n# Absorption\n\nFollowing a single oral dose of 1,000 mg (2 x 500 mg tablets) metformin hydrochloride extended-release tablets ..."
+        }
+      ],
+      "latency_ms": 24.75,
+      "statistics": {
+        "min_score": 0.4362,
+        "max_score": 1.0,
+        "mean_score": 0.6584,
+        "median_score": 0.6351,
+        "std_dev": 0.2143
+      }
+    },
+    "overlap": {
+      "overlap_count": 2,
+      "overlap_percentage": 20.0,
+      "overlap_chunk_ids": [
+        "fda_metformin_extended_release_2025_chunk_0019",
+        "fda_metformin_highlights_2026_chunk_0018"
+      ]
+    }
+  },
+  "query_5": {
+    "query_text": "What drugs interact with lisinopril?",
+    "drug": "lisinopril",
+    "question_type": "interactions",
+    "vector": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0019",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5967,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 8.6 Race\n\nACE inhibitors, including lisinopril, have an effect on blood pressure that is less in Black patients than in non-Blacks.\n\n# 8.7 Renal Imp..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0005",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5931,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, patients with dia..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0015",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5892,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# Nervous system and psychiatric disorders\n\nMood alterations (including depressive symptoms), mental confusion\n\n# 7 DRUG INTERACTIONS\n\n# 7.1 Diuretics..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0012",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5861,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 6.1 Clinical Trials Experience\n\nBecause clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinic..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0008",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5845,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "40 mg are yellow colored, round, biconvex tablets, debossed with \"E 6\" on one side and plain on the other side.\n\n# 4 CONTRAINDICATIONS\n\nLisinopril tab..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0002",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5748,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "(6)\n\n(6)\n\n(6)\n\n(6)\n\n(6)\n\n(6)\n\n# DRUG INTERACTIONS\n\n(7)\n\n(7)\n\n- Diuretics: Excessive drop in blood pressure (7.1)\n- NSAIDS: Increased risk of renal imp..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0023",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5635,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# Pediatric Patients\n\nThe pharmacokinetics of lisinopril were studied in 29 pediatric hypertensive patients between 6 years and 16 years with glomerul..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0001",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5567,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# DOSAGE FORMS AND STRENGTHS\n\nTablets: 2.5 mg, 5 mg, 10 mg, 20 mg, 30 mg, 40 mg (3)\n\n# CONTRAINDICATIONS\n\n- Angioedema or a history of hereditary or i..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0024",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5472,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "# 14 CLINICAL STUDIES\n\n# 14.1 Hypertension\n\nTwo dose-response studies utilizing a once-daily regimen were conducted in 438 mild to moderate hypertensi..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0032",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.5459,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "vector",
+          "text_preview": "Packaged by: Legacy Pharmaceutical Packaging LLC, Earth City, MO 63045\n\n# Lisinopril Tablets USP, 40 mg – 90s count label\n\n20 NDC 68645-613-90  Rx Onl..."
+        }
+      ],
+      "latency_ms": 20.0,
+      "statistics": {
+        "min_score": 0.5459,
+        "max_score": 0.5967,
+        "mean_score": 0.5738,
+        "median_score": 0.5797,
+        "std_dev": 0.0191
+      }
+    },
+    "bm25": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0019",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 7 DRUG INTERACTIONS\n\n# 7.1 General Information\n\nDrugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharm..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0019",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 7 DRUG INTERACTIONS\n\n# 7.1 General Information\n\nDrugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharm..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0044",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.5302,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# What is the most important information I should know about warfarin\n\n\n\n\n# Warfarin Sodium\n\nWarfarin sodium can cause bleeding which can be serious a..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0045",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.4003,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Dist. by: Taro Pharmaceuticals U.S.A., Inc., Hawthorne, NY 10532\n\nRevised: August 2022\n\n5200706-0822-20\n\nMarketed by: GSMS, Inc., Camarillo, CA 93012 ..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0045",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.2966,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Get your regular blood test to check for your response to warfarin sodium. This blood test is called an INR test. The INR test checks to see how fast ..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0046",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.288,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "Get your regular blood test to check for your response to warfarin sodium. This blood test is called an INR test. The INR test checks to see how fast ..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "nice_osteoarthritis_management_ng226_2022_chunk_0011",
+          "document_id": "nice_osteoarthritis_management_ng226_2022",
+          "score": 0.2556,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "unknown"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Key recommendations for research\n\n# 1 Exercise\n\nWhat is the clinical and cost effectiveness of supervised group and individual exercise compared wit..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0024",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 0.0834,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# 7.5 Botanical (Herbal) Products and Foods\n\nMore frequent INR monitoring should be performed when starting or stopping botanicals. Few adequate, well..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "nice_metformin_guideline_diabetes_2021_chunk_0030",
+          "document_id": "nice_metformin_guideline_diabetes_2021",
+          "score": 0.0,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2021,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Other recommendations for research\n\n# 5 Effectiveness of SGLT2 inhibitors for different ethnic groups\n\nWhat is the clinical and cost effectiveness o..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "nice_metformin_guideline_diabetes_ng28_2022_chunk_0030",
+          "document_id": "nice_metformin_guideline_diabetes_ng28_2022",
+          "score": 0.0,
+          "authority_family": "NICE",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "metformin"
+          ],
+          "retriever_type": "bm25",
+          "text_preview": "# Other recommendations for research\n\n# 5 Effectiveness of SGLT2 inhibitors for different ethnic groups\n\nWhat is the clinical and cost effectiveness o..."
+        }
+      ],
+      "latency_ms": 4.02,
+      "statistics": {
+        "min_score": 0.0,
+        "max_score": 1.0,
+        "mean_score": 0.3854,
+        "median_score": 0.2923,
+        "std_dev": 0.365
+      }
+    },
+    "hybrid": {
+      "results": [
+        {
+          "rank": 1,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0019",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 8.6 Race\n\nACE inhibitors, including lisinopril, have an effect on blood pressure that is less in Black patients than in non-Blacks.\n\n# 8.7 Renal Imp..."
+        },
+        {
+          "rank": 2,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0019",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 7 DRUG INTERACTIONS\n\n# 7.1 General Information\n\nDrugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharm..."
+        },
+        {
+          "rank": 3,
+          "chunk_id": "fda_warfarin_label_2025_chunk_0019",
+          "document_id": "fda_warfarin_label_2025",
+          "score": 1.0,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 7 DRUG INTERACTIONS\n\n# 7.1 General Information\n\nDrugs may interact with warfarin sodium through pharmacodynamic or pharmacokinetic mechanisms. Pharm..."
+        },
+        {
+          "rank": 4,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0005",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.9588,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "absolute risk, so the absolute benefit is greater in patients who are at higher risk independent of their hypertension (for example, patients with dia..."
+        },
+        {
+          "rank": 5,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0015",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.9145,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Nervous system and psychiatric disorders\n\nMood alterations (including depressive symptoms), mental confusion\n\n# 7 DRUG INTERACTIONS\n\n# 7.1 Diuretics..."
+        },
+        {
+          "rank": 6,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0012",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.8786,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# 6.1 Clinical Trials Experience\n\nBecause clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinic..."
+        },
+        {
+          "rank": 7,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0008",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.8607,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "40 mg are yellow colored, round, biconvex tablets, debossed with \"E 6\" on one side and plain on the other side.\n\n# 4 CONTRAINDICATIONS\n\nLisinopril tab..."
+        },
+        {
+          "rank": 8,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0002",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.7503,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "(6)\n\n(6)\n\n(6)\n\n(6)\n\n(6)\n\n(6)\n\n# DRUG INTERACTIONS\n\n(7)\n\n(7)\n\n- Diuretics: Excessive drop in blood pressure (7.1)\n- NSAIDS: Increased risk of renal imp..."
+        },
+        {
+          "rank": 9,
+          "chunk_id": "fda_lisinopril_highlights_2025_chunk_0023",
+          "document_id": "fda_lisinopril_highlights_2025",
+          "score": 0.6209,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2025,
+          "drug_names": [
+            "lisinopril"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# Pediatric Patients\n\nThe pharmacokinetics of lisinopril were studied in 29 pediatric hypertensive patients between 6 years and 16 years with glomerul..."
+        },
+        {
+          "rank": 10,
+          "chunk_id": "fda_warfarin_highlights_2022_chunk_0044",
+          "document_id": "fda_warfarin_highlights_2022",
+          "score": 0.6,
+          "authority_family": "FDA",
+          "tier": 1,
+          "year": 2022,
+          "drug_names": [
+            "warfarin"
+          ],
+          "retriever_type": "hybrid",
+          "text_preview": "# What is the most important information I should know about warfarin\n\n\n\n\n# Warfarin Sodium\n\nWarfarin sodium can cause bleeding which can be serious a..."
+        }
+      ],
+      "latency_ms": 23.1,
+      "statistics": {
+        "min_score": 0.6,
+        "max_score": 1.0,
+        "mean_score": 0.8584,
+        "median_score": 0.8965,
+        "std_dev": 0.1523
+      }
+    },
+    "overlap": {
+      "overlap_count": 0,
+      "overlap_percentage": 0.0,
+      "overlap_chunk_ids": []
+    }
+  }
+}
