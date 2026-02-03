@@ -86,9 +86,17 @@ async def startup_event():
         logger.info(f"[OK] Vector Store loaded: {vector_store.get_chunk_count()} chunks")
         
         # Load BM25 Index
-        logger.info("[LOAD]Loading BM25 Index...")
-        bm25_index = BM25Index.load_from_disk(str(BM25_INDEX_PATH))
-        logger.info(f"[OK] BM25 Index loaded: {bm25_index.get_corpus_size()} chunks")
+        # Build BM25 Index from loaded chunks (avoids pickle issues)
+        logger.info("[LOAD] Building BM25 Index from chunks...")
+        if vector_store.chunks_loaded:
+            bm25_index = BM25Index(k1=1.5, b=0.75)
+            bm25_index.chunks = vector_store.chunks_loaded  # Reuse already loaded chunks
+            bm25_index.build_index()
+            logger.info(f"[OK] BM25 Index built: {bm25_index.get_corpus_size()} chunks")
+        else:
+            logger.error("[ERROR] No chunks loaded, cannot build BM25 index")
+            raise RuntimeError("Cannot build BM25 without chunks")
+
         
         # Initialize Hybrid Retriever
         logger.info("[LOAD]Initializing Hybrid Retriever...")
@@ -160,10 +168,16 @@ async def get_stats():
     if vector_store.chunks_loaded:
         for chunk in vector_store.chunks_loaded:
             drugs_covered.update(chunk.drug_names)
+
+    # ✅ NEW: Filter out "unknown" and invalid values
+    drugs_filtered = [
+        d for d in drugs_covered 
+        if d and d.lower() not in ["unknown", "n/a", "none", ""]
+    ]
     
     return StatsResponse(
         total_chunks=vector_store.get_chunk_count(),
-        drugs_covered=sorted(list(drugs_covered)),
+        drugs_covered=sorted(list(drugs_filtered)),     # ✅ Changed from drugs_covered to drugs_filtered
         retriever_types_available=["vector", "bm25", "hybrid"],
         vector_store_status="loaded" if vector_store else "not loaded",
         bm25_index_status="loaded" if bm25_index else "not loaded",

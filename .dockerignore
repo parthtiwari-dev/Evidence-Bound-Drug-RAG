@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Docs
+docs/
+*.md
+!README.md
+
+# Tests
+tests/
+
+# Env files
+.env
+.env.local
+
+# Logs (will be mounted as volume)
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
