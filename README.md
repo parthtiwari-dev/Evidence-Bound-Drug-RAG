@@ -834,8 +834,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Project Author**: [Your Name]  
-**Project Link**: [https://github.com/yourusername/Evidence-Bound-Drug-RAG](https://github.com/yourusername/Evidence-Bound-Drug-RAG)  
+**Project Author**: Parth Tiwari
+**Project Link**: [https://github.com/yourusername/Evidence-Bound-Drug-RAG](https://github.com/parthtiwari-dev/Evidence-Bound-Drug-RAG)  
 **Live Demo**: [https://evidence-bound-drug-rag.streamlit.app/](https://evidence-bound-drug-rag.streamlit.app/)  
 **API**: [https://evidence-bound-drug-rag-api.onrender.com](https://evidence-bound-drug-rag-api.onrender.com)
 
