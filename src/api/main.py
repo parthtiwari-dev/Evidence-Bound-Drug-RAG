@@ -1,4 +1,53 @@
 """
+Evidence-Bound Drug RAG API
+"""
+print("="*80)
+print("[DEBUG] Starting API script...")
+print("="*80)
+
+import sys
+print(f"[DEBUG] Python version: {sys.version}")
+print(f"[DEBUG] Python path: {sys.executable}")
+
+try:
+    print("[DEBUG] Importing FastAPI...")
+    from fastapi import FastAPI
+    print("[DEBUG] ✅ FastAPI imported")
+    
+    print("[DEBUG] Importing pathlib...")
+    from pathlib import Path
+    print("[DEBUG] ✅ Pathlib imported")
+    
+    print("[DEBUG] Checking data files...")
+    chunks_path = Path("data/processed/chunks.json")
+    chromadb_path = Path("data/chromadb")
+    
+    print(f"[DEBUG] chunks.json exists: {chunks_path.exists()}")
+    print(f"[DEBUG] chromadb exists: {chromadb_path.exists()}")
+    
+    if chunks_path.exists():
+        print(f"[DEBUG] chunks.json size: {chunks_path.stat().st_size / 1024:.1f} KB")
+    
+    print("[DEBUG] Importing retrieval modules...")
+    from src.retrieval.vector_store import VectorStore
+    print("[DEBUG] ✅ VectorStore imported")
+    
+    from src.retrieval.bm25_index import BM25Index
+    print("[DEBUG] ✅ BM25Index imported")
+    
+    from src.retrieval.hybrid_retriever import HybridRetriever
+    print("[DEBUG] ✅ HybridRetriever imported")
+    
+except Exception as e:
+    print(f"[DEBUG] ❌ IMPORT ERROR: {e}")
+    import traceback
+    traceback.print_exc()
+    sys.exit(1)
+
+print("[DEBUG] All imports successful!")
+print("="*80)
+
+"""
 FastAPI Application for Evidence-Bound Drug RAG System
 Phase 0: Retrieval-only API (no LLM integration)
 """
