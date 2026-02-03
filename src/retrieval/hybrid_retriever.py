@@ -71,7 +71,7 @@ class HybridRetriever:
         self,
         query: str,
         top_k: int = 10,
-        vector_weight: float = 0.5
+        vector_weight: float = 0.7
     ) -> List[RetrievedChunk]:
         """
         Retrieve using hybrid search (vector + BM25).
