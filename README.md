@@ -3,7 +3,7 @@
 > 🏥 A production-ready medical RAG system that retrieves evidence from FDA/NICE guidelines, generates cited answers, and maintains 80% faithfulness with intelligent refusal for out-of-scope queries.
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-red?style=for-the-badge&logo=streamlit)](https://evidence-bound-drug-rag.streamlit.app/)
-[![API](https://img.shields.io/badge/API-Live-green?style=for-the-badge&logo=fastapi)](https://evidence-bound-drug-rag-api.onrender.com)
+[![API](https://img.shields.io/badge/API-Live-green?style=for-the-badge&logo=fastapi)](https://huggingface.co/spaces/parthtiwar1/drug-rag-api/docs)
 [![RAGAS Score](https://img.shields.io/badge/RAGAS%20Score-0.71%2F1.0-brightgreen?style=for-the-badge)](docs/evaluation_results_final.md)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
@@ -76,7 +76,7 @@ The Evidence-Bound Drug RAG System is a **production-grade medical information r
 | Application | Description | Link |
 |-------------|-------------|------|
 | **Streamlit UI** | Interactive chat interface for querying drug information | [Launch App →](https://evidence-bound-drug-rag.streamlit.app/) |
-| **FastAPI Backend** | RESTful API for programmatic access | [API Docs →](https://evidence-bound-drug-rag-api.onrender.com/docs) |
+| **FastAPI Backend** | RESTful API for programmatic access | [API Docs →](https://huggingface.co/spaces/parthtiwar1/drug-rag-api/docs) |
 
 ### 💻 Try It Out
 
@@ -504,7 +504,7 @@ print(answer.answer_text)
 
 ### Base URL
 
-**Production**: `https://evidence-bound-drug-rag-api.onrender.com`  
+**Production**: `https://huggingface.co/spaces/parthtiwar1/drug-rag-api/docs`  
 **Local**: `http://localhost:8000`
 
 ### Endpoints
@@ -837,7 +837,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Project Author**: Parth Tiwari
 **Project Link**: [https://github.com/yourusername/Evidence-Bound-Drug-RAG](https://github.com/parthtiwari-dev/Evidence-Bound-Drug-RAG)  
 **Live Demo**: [https://evidence-bound-drug-rag.streamlit.app/](https://evidence-bound-drug-rag.streamlit.app/)  
-**API**: [https://evidence-bound-drug-rag-api.onrender.com](https://evidence-bound-drug-rag-api.onrender.com)
+**API**: [https://huggingface.co/spaces/parthtiwar1/drug-rag-api/docs](https://huggingface.co/spaces/parthtiwar1/drug-rag-api/docs)
 
 ---
 
@@ -862,6 +862,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Made with ❤️ and evidence-based practices
 
-[Live Demo](https://evidence-bound-drug-rag.streamlit.app/) • [API Docs](https://evidence-bound-drug-rag-api.onrender.com/docs) • [Evaluation Report](docs/evaluation_results_final.md)
+[Live Demo](https://evidence-bound-drug-rag.streamlit.app/) • [API Docs](https://huggingface.co/spaces/parthtiwar1/drug-rag-api/docs) • [Evaluation Report](docs/evaluation_results_final.md)
 
 </div>
