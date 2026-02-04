@@ -132,8 +132,16 @@ async def startup_event():
         )
         vector_store.load_chunks(str(CHUNKS_PATH))
         vector_store.create_or_load_collection(reset=False)
-        logger.info(f"[OK] Vector Store loaded: {vector_store.get_chunk_count()} chunks")
-        
+
+        current_count = vector_store.get_chunk_count()
+
+        if current_count == 0:
+            logger.info("[LOAD] Vector store empty — generating embeddings...")
+            vector_store.add_chunks()
+            logger.info(f"[OK] Vector store populated: {vector_store.get_chunk_count()} chunks")
+        else:
+            logger.info(f"[OK] Vector Store loaded: {current_count} chunks")
+
         # Load BM25 Index
         # Build BM25 Index from loaded chunks (avoids pickle issues)
         logger.info("[LOAD] Building BM25 Index from chunks...")
@@ -426,10 +434,9 @@ async def ask(request: RetrieveRequest):
         elif request.retriever_type == "bm25":
             chunks = hybrid_retriever.retrieve_bm25(request.query, request.top_k)
         else:  # hybrid (default)
-            chunks = hybrid_retriever.retrieve_hybrid(
-                request.query, 
-                request.top_k,
-                vector_weight=0.5
+            chunks = hybrid_retriever.retrieve_vector(
+            request.query,
+            request.top_k
             )
         
         retrieval_time = (time.time() - retrieval_start) * 1000
@@ -480,7 +487,7 @@ if __name__ == "__main__":
     import uvicorn
     import os
     
-    port = int(os.getenv("PORT", 8000))  # Read PORT from Render, default to 8000 locally
+    port = int(os.getenv("PORT", 7860))  # Read PORT from Render, default to 8000 locally
     
     uvicorn.run(
         app, 

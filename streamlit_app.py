@@ -104,7 +104,7 @@ try:
 except:
     # Use Docker service name for container-to-container communication
     import os
-    API_URL = os.getenv("API_URL", "http://localhost:8000")
+    API_URL = os.getenv("API_URL", "http://localhost:7860")
 
 
 # ============================================================================
@@ -117,7 +117,7 @@ with st.sidebar:
     st.subheader("🎛️ Retrieval Settings")
     retriever_type = st.selectbox(
         "Method",
-        ["hybrid", "vector", "bm25"],
+        ["vector", "hybrid", "bm25"],
         index=0,
         help="Hybrid = BM25 + Vector (Recommended)"
     )
