@@ -1,0 +1,40 @@
+# Production API Requirements (Memory Optimized for Render Free Tier)
+# Excludes development/evaluation dependencies
+
+# Core API
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-dotenv==1.2.1
+pydantic==2.12.5
+pydantic-settings==2.12.0
+
+# LLM & Generation
+groq==0.37.1
+openai==2.16.0
+tiktoken==0.12.0
+
+# Retrieval & Vector Store
+chromadb==1.4.1
+sentence-transformers==3.3.1
+
+# Langchain (minimal)
+langchain-core==1.2.8
+langchain-groq==1.1.2
+langchain-openai==1.1.2
+langchain-text-splitters==1.1.0
+
+# Text Processing
+rank-bm25==0.2.2
+
+# Utilities
+requests==2.32.5
+
+# NOTE: Excluded heavy packages for memory optimization:
+# - pandas (45MB) - not needed in production API
+# - numpy (25MB) - pulled in by sentence-transformers anyway
+# - ragas (evaluation only)
+# - datasets (evaluation only)
+# - streamlit (UI only, deploy separately)
+# - llama-parse (ingestion only, not needed at runtime)
+# - langchain-community (not used)
+# - langchain-huggingface (not used)

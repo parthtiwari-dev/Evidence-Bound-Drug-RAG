@@ -104,7 +104,7 @@ try:
 except:
     # Use Docker service name for container-to-container communication
     import os
-    API_URL = os.getenv("API_URL", "http://api:8000")  # ✅ Changed to 'api'
+    API_URL = os.getenv("API_URL", "http://localhost:8000")
 
 
 # ============================================================================
