@@ -363,5 +363,5 @@ with st.expander("⚠️ Important Medical Disclaimer"):
     - Report any adverse effects to your healthcare provider
     - Verify all information with official sources
     
-    **Emergency:** Call your local emergency number (911 in US) for medical emergencies.
+    **Emergency:** Call your local emergency number  for medical emergencies.
     """)
